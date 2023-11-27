@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('galaxy.gif');
+    background-repeat: repeat; 
+  }
+  
+
+  
+  .center {
+    text-align: center;
+  }
+  .ali {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #2c3e50; /* Cambia el color del texto */
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #3498db; /* Añade un borde alrededor del texto */
+    border-radius: 10px; /* Hace que los bordes sean redondeados */
+    background-color: #ecf0f1; /* Color de fondo del texto */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+  }
+  
+#yesBtn {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ecf0f1; /* Cambia el color de fondo del botón */
+    color: #2c3e50; /* Cambia el color del texto del botón a blanco */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Agrega una transición suave al color de fondo */
+  }
+  
+  #yesBtn:hover {
+    color: #fff;
+    background-color: #752196; /* Cambia el color de fondo del botón al pasar el mouse sobre él */
+  }
+
+  .movingButton {
+    width: 100px;
+    height: 50px;
+    background-color: #ccc;
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  
+  .movingButton:hover {
+    transform: translateX(-50px) rotate(20deg);
+  }
+  
